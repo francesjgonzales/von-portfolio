@@ -3,8 +3,8 @@ import './works.css';
 
 const Works = () => {
   return (
-    <div>Works</div>
-  )
+    <div>works</div>
+  );
 }
 
-export default Works
+export default Works;

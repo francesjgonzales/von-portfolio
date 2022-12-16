@@ -1,5 +1,4 @@
-import React from 'react';
-import './skills.css';
+import React from 'react'
 
 const Skills = () => {
   return (
