@@ -10,8 +10,9 @@
 }
 
 body {
-  background: var(--color-bg);
   color: var(--color-text)!important;
+  background: var(--color-bg);
+
 }
 
 a {
