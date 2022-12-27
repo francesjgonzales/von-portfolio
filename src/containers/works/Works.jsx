@@ -1,24 +1,21 @@
 import React from 'react';
 import './works.css';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import Work from '../../components/work/Work';
+import { Container } from 'react-bootstrap';
+import workData from '../../containers/works/workData';
+/* import Row from 'react-bootstrap/Row'; */
+
 
 
 const Works = () => {
   return (
-    <div className='container'>
-      <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-    </div>
+    <>
+      <Container className='d-flex m-5'>
+        {workData.map((item, idx) => (
+          <Work cardTitle={item.cardTitle} cardText={item.cardText} key={item.cardTitle + idx} />
+        ))}
+      </Container>
+    </>
   );
 }
 

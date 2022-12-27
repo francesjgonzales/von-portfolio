@@ -17,7 +17,7 @@ const App = () => {
         <Navbar.Collapse className=" justify-content-end" id="responsive-navbar-nav">
           <Nav>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
-            <Nav.Link  as={Link} to="/works">Work</Nav.Link>
+            <Nav.Link  as={Link} to="/works">Works</Nav.Link>
             <Nav.Link  as={Link} to="/skills">Skills</Nav.Link>
             <Nav.Link  as={Link} to="/contact">Contact</Nav.Link>
             {/* <Nav.Link eventKey={2} href="#memes">

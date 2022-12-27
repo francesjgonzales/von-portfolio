@@ -1,11 +1,12 @@
 import React from 'react';
 import Table from 'react-bootstrap/Table';
+import { Container } from 'react-bootstrap';
 
 
 const Skills = () => {
   return (
-    <div className='container'>
-      <Table striped bordered hover variant="dark">
+    <Container>
+      <Table striped bordered hover variant="light">
         <thead>
           <tr>
             <th>Skills</th>
@@ -42,7 +43,9 @@ const Skills = () => {
           </tr>
         </tbody>
       </Table>
-    </div>
+
+    </Container>
+
 
   )
 }
