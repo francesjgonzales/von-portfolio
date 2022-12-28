@@ -1,4 +1,9 @@
-.d-flex {
-    display: flex;
-    justify-content: space-evenly;
+.row-cols-md-2>* 
+    {
+    width: auto!important;
+}
+
+.row
+    {
+    justify-content: center;
 }

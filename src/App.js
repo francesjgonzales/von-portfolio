@@ -12,11 +12,11 @@ const App = () => {
       <>
       <Navbar collapseOnSelect expand="lg" bg="light">
       <Container>
-        <Navbar.Brand href="/home">VG</Navbar.Brand>
+        <Navbar.Brand href="/works">VG</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className=" justify-content-end" id="responsive-navbar-nav">
           <Nav>
-            <Nav.Link as={Link} to="/about">About</Nav.Link>
+            <Nav.Link  as={Link} to="/about">About</Nav.Link>
             <Nav.Link  as={Link} to="/works">Works</Nav.Link>
             <Nav.Link  as={Link} to="/skills">Skills</Nav.Link>
             <Nav.Link  as={Link} to="/contact">Contact</Nav.Link>

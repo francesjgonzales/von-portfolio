@@ -9,20 +9,18 @@ import Col from 'react-bootstrap/Col'; */
 
 const Work = ({ cardTitle, cardText, cardLink }) => {
   return (
-
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>{cardTitle}</Card.Title>
-              <Card.Text>
-                {cardText}
-              </Card.Text>
-              <Button variant="primary" href={cardLink} >Go somewhere</Button>
-            </Card.Body>
-          </Card>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        <Card.Title>{cardTitle}</Card.Title>
+        <Card.Text>
+          {cardText}
+        </Card.Text>
+        <Button variant="primary" href={cardLink} >View more</Button>
+      </Card.Body>
+    </Card>
 
   );
 }
-
 export default Work;
 
