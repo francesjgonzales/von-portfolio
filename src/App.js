@@ -1,5 +1,5 @@
 import React from 'react';
-import { Works, Skills, Contact, Footer, Header } from './containers';
+import { Works, WorksDesc, Skills, Contact, Footer, Header } from './containers';
 import { About } from './components';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -32,6 +32,7 @@ const App = () => {
         {/* <Route path="/header" element={ <Header /> }/> */}
         <Route path="/about" element={ <About /> }/>
         <Route path="/works" element={ <Works /> }/>
+        <Route path="/worksDesc/:id" element={ <WorksDesc /> }/>
         <Route path="/skills" element={ <Skills /> }/>
         <Route path="/contact" element={ <Contact /> }/>
       </Routes>

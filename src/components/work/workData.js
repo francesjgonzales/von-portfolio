@@ -2,7 +2,7 @@ const workData = [
     {
       cardTitle: 'Work 1',
       cardText: 'Work Description 1',
-      cardLink: '../../works',
+      cardLink: '/worksDesc/1',
     },
     {
       cardTitle: 'Work 2',
