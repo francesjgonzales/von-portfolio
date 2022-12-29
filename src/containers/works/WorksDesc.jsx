@@ -8,7 +8,7 @@ const WorksDesc = () => {
     <>
       <Container>
         {workDataDesc.map((item, idx) => (
-          <WorkDesc workBody={item.workBody} workImg={item.workImg} key={item.workBody + idx} />
+          <WorkDesc workBody={item.workBody} workImg={item.workImg} key={item.idx} />
         ))}
   </Container>
     

@@ -2,9 +2,9 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 
 
-const WorkDesc = ({ workBody, workImg }) => {
+const WorkDesc = ({ workBody, workImg, idx }) => {
   return (
-    <Container>
+    <Container className={idx}>
       {workBody} {workImg}
     </Container>
     

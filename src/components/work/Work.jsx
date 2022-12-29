@@ -1,7 +1,8 @@
 import React from 'react';
 import './work.css';
-import Button from 'react-bootstrap/Button';
+/* import Button from 'react-bootstrap/Button'; */
 import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
 /* import { Container, Row, Col } from 'react-bootstrap';
  *//* import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'; */
@@ -16,7 +17,7 @@ const Work = ({ cardTitle, cardText, cardLink }) => {
         <Card.Text>
           {cardText}
         </Card.Text>
-        <Button variant="primary" href={cardLink} >View more</Button>
+        <Link className='primary' to={cardLink} >View more</Link>
       </Card.Body>
     </Card>
 

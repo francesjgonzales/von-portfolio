@@ -7,7 +7,7 @@ const workData = [
     {
       cardTitle: 'Work 2',
       cardText: 'Work Description 2',
-      cardLink: 'Link 2'
+      cardLink: '/worksDesc/2',
     },
     {
       cardTitle: 'Work 3',
