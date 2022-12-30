@@ -9,13 +9,16 @@ const Works = () => {
     <>
       <Container className='mb-5'>
         <Row xs={1} md={2} className="g-4">
-        {workData.map((item, idx) => (
-          <Col>
-          <Work cardTitle={item.cardTitle} cardText={item.cardText} cardLink={item.cardLink} key={item.cardTitle + idx} />
+        {workData.map((item) => (
+          <Col key={item.id}>
+          <Work cardTitle={item.cardTitle} cardText={item.cardText} cardLink={item.cardLink} cardImage={item.cardImage} />
           </Col>
         ))}
         </Row>
       </Container>
+
+      {/* modal */}
+      
 
 
     </>

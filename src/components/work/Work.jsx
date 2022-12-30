@@ -8,10 +8,10 @@ import { Link } from 'react-router-dom';
 import Col from 'react-bootstrap/Col'; */
 
 
-const Work = ({ cardTitle, cardText, cardLink }) => {
+const Work = ({ cardTitle, cardText, cardLink, cardImage }) => {
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={ cardImage } />
       <Card.Body>
         <Card.Title>{cardTitle}</Card.Title>
         <Card.Text>
