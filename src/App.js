@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes, Link } from "react-router-dom";
 import { Container, Nav, Navbar } from 'react-bootstrap';
 
+
 const App = () => {
   return (
     <div className='App'>
@@ -32,7 +33,7 @@ const App = () => {
         {/* <Route path="/header" element={ <Header /> }/> */}
         <Route path="/about" element={ <About /> }/>
         <Route path="/works" element={ <Works /> }/>
-        <Route path="/worksDesc/:id" element={ <WorksDesc /> }/>
+        <Route path="/works/worksDesc" element={ <WorksDesc /> }/>
         <Route path="/skills" element={ <Skills /> }/>
         <Route path="/contact" element={ <Contact /> }/>
       </Routes>

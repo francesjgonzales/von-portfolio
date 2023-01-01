@@ -1,13 +1,13 @@
 const workDataDesc = [
     {
-      workBody: 'Work 1 body',
-      workImg: 'Work Description 1',
-      idx: '1'
+      id: 1,
+      workBody: 'Branding',
+      workImg: 'assets/Von-banners.jpg',
     },
     {
+      id: 2,
       workBody: 'Work 2 body',
       workImg: 'Work Description 2',
-      idx: '2'
     },
   ]
 
