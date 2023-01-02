@@ -4,11 +4,30 @@ import WorkDesc from '../../components/work/WorkDesc';
 import { Container, Row, Col } from 'react-bootstrap';
 /* import workDataDesc from '../../components/work/workDataDesc'; */
 import workData from '../../components/work/workData';
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
 
 
 const WorksDesc = () => {
   return (
     <>
+    <Container className='mt-3'>
+      <Tabs
+        defaultActiveKey="Experience"
+        id="controlled-tab-example"
+        className="mb-3 justify-content-center"
+      >
+        <Tab eventKey="Website" title="Website">
+
+          <Websites />
+        </Tab>
+        {/* <Tab eventKey="skills" title="Skills">
+          <Skills />
+        </Tab> */}
+      </Tabs>
+    </Container>
+
+
       <Container className='mb-5'>
         <Row xs={1} md={2} className="g-4">
           {workData.map((item) => (

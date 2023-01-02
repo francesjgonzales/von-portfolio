@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
  *//* import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'; */
 
-const Work = ({ cardTitle, cardText, cardLink, cardImage, card1 }) => {
+const Work = ({ cardTitle, cardText, cardLink, cardImage }) => {
   return (
     <Card style={{ width: '35rem' }}>
       <Card.Img variant="top" src={ cardImage } />
