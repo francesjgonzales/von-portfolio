@@ -13,7 +13,7 @@ const Works = () => {
         <Row xs={1} md={2} className="g-4">
         {workData.map((item) => (
           <Col key={item.id} id={ item.id }>
-          <Work cardTitle={item.cardTitle} cardText={item.cardText} cardLink={item.cardLink} cardImage={item.cardImage}/>
+          <Work cardTitle={item.cardTitle} cardText={item.cardText} cardLink={item.cardLink} cardImage={item.cardImage} />
           </Col>
         ))}
         </Row>

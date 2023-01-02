@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 
 const Header = () => {
   return (
-    <Container className='m-3'>
+    <Container>
       <Row>
         <Col className='mt-5'>
           <h1>Von Gonzales</h1>
