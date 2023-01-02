@@ -17,7 +17,7 @@ const Work = ({ cardTitle, cardText, cardLink, cardImage, card1 }) => {
         <Card.Text>
           {cardText}
         </Card.Text>
-        <Link className='primary' to={cardLink} >View more</Link>
+        <Link className='primary' to={cardLink}> View more</Link>
       </Card.Body>
     </Card>
 

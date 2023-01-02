@@ -3,18 +3,16 @@ const workData = [
     id: 1,
     cardTitle: 'Commercial Print',
     cardImage: 'assets/Von-banners.jpg',
-    cardText: 'Works from marketing collaterals to large-scale print',
+    cardText: 'Projects from marketing collaterals to large-scale print',
     cardLink: '/works/WorksDesc/#1',
     card1: '/assets/Von-posters1.jpg',
-    card1Text: 'Event Posters',
-    card2: '/assets/von-print1.jpg',
-    card2Text: 'SAF Collaterals from posters to stickers',
-    card3: '',
-    card3Text: '',
-    card4: '',
-    card4Text: ''
-
-
+    card1Text: 'Event Posters - Ideation | Print Design',
+    card2: '/assets/Von-print1.jpg',
+    card2Text: 'SAF Collaterals - Newsletter | Posters | Envelope | Stickers',
+    card3: '/assets/Von-posters2.jpg',
+    card3Text: 'Event Posters - Ideation | Print Design',
+    card4: '/assets/Von-banners.jpg',
+    card4Text: 'Pull up banners for events - Ideation | Print Design'
   },
   {
     id: 2,
@@ -23,10 +21,13 @@ const workData = [
     cardText: 'Projects include coffee-table books, magazines & newsletters',
     cardLink: '/works/WorksDesc/#2',
     card1: '/assets/Von-publication1.jpg',
-    card1Text: 'Packaging',
+    card1Text: 'Newsletters for FOM, NUS, ASEF - Layout | Print Design',
     card2: '/assets/Von-publication2.jpg',
-    card2Text: 'AltImg',
-    card3: '/assets/von-motion-1.mp4',
+    card2Text: 'Digital and print newsletters for BCG, UNU-IAS, Halcyon - Layout | Print Design',
+    card3: '/assets/Von-posters2.jpg',
+    card3Text: 'Event Posters - Ideation | Print Design',
+    card4: '/assets/Von-banners.jpg',
+    card4Text: 'Pull up banners for events - Ideation | Print Design'
   },
   {
     id: 3,
