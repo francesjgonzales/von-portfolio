@@ -4,7 +4,7 @@ const workData = [
     cardTitle: 'Web Design',
     cardImage: 'assets/Von-web.jpg',
     cardText: 'Wireframe and UI component design',
-    cardLink: '/works/WorksDesc/#1',
+    cardLink: '/works/Websites',
     card1: '/assets/Von-website3.jpg',
     card1Text: 'Sigla Mobile App proposal - UI design | UX Research | Wireframe',
     card2: '/assets/Von-website4.png',

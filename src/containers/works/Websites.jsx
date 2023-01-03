@@ -6,6 +6,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import webData from '../../components/work/webData';
 
 
+
 const Websites = () => {
   return (
     <>
@@ -14,7 +15,7 @@ const Websites = () => {
           {webData.map((item) => (
             <Col key={item.id} id={item.id}>
               <Website 
-              cardTitle={item.cardTitle1} cardText={item.cardText}
+              cardTitle={item.cardTitle} cardText={item.cardText}
               card1={item.card1} card1Text={item.card1Text} 
               card2={item.card2} card2Text={item.card2Text} 
               card3={item.card3} card3Text={item.card3Text} 
