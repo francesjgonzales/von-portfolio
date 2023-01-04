@@ -1,5 +1,6 @@
 import React from 'react';
 import './works.css';
+<<<<<<< HEAD
 // import WorkDesc from '../../components/work/WorkDesc';
 import { Container} from 'react-bootstrap';
 /* import workDataDesc from '../../components/work/workDataDesc'; */
@@ -9,10 +10,20 @@ import Tabs from 'react-bootstrap/Tabs';
 import Websites from './Websites';
 import Digital from './Digitals';
 
+=======
+/* import WorkDesc from '../../components/work/WorkDesc'; */
+import { Container } from 'react-bootstrap';
+/* import workDataDesc from '../../components/work/workDataDesc'; */
+/* import workData from '../../components/work/workData'; */
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
+import Websites from './Websites';
+>>>>>>> 978f9c39aabde15359087ba3db1a55ca08d8d2fa
 
 const WorksDesc = () => {
   return (
     <>
+<<<<<<< HEAD
     <Container className='mt-3'>
       <Tabs
         defaultActiveKey="Website"
@@ -20,9 +31,19 @@ const WorksDesc = () => {
         className="mb-3 justify-content-center"
       >
         <Tab eventKey="Website" title="Website">
+=======
+      <Container className='mt-3'>
+        <Tabs
+          defaultActiveKey="WorksDesc"
+          id="controlled-tab-example"
+          className="mb-3 justify-content-center"
+        >
+          {/*  <Tab eventKey="Experience" title="Experience">
+>>>>>>> 978f9c39aabde15359087ba3db1a55ca08d8d2fa
 
-          <Websites />
+          <Experience />
         </Tab>
+<<<<<<< HEAD
         <Tab eventKey="Digital" title="Digital">
           <Digital />
         </Tab>
@@ -30,18 +51,29 @@ const WorksDesc = () => {
     </Container>
 
 
+=======
+        <Tab eventKey="skills" title="Skills">
+          <Skills />
+        </Tab> */}
+          <Tab eventKey="Website" title="Website">
+            <Websites />
+          </Tab>
+        </Tabs>
+      </Container>
+
+>>>>>>> 978f9c39aabde15359087ba3db1a55ca08d8d2fa
       {/* <Container className='mb-5'>
         <Row xs={1} md={2} className="g-4">
           {workData.map((item) => (
             <Col key={item.id} id={item.id}>
-              <WorkDesc 
-              cardTitle={item.cardTitle} cardText={item.cardText}
-              card1={item.card1} card1Text={item.card1Text} 
-              card2={item.card2} card2Text={item.card2Text} 
-              card3={item.card3} card3Text={item.card3Text} 
-              card4={item.card4} card4Text={item.card4Text}
-            />
-              
+              <WorkDesc
+                cardTitle={item.cardTitle} cardText={item.cardText}
+                card1={item.card1} card1Text={item.card1Text}
+                card2={item.card2} card2Text={item.card2Text}
+                card3={item.card3} card3Text={item.card3Text}
+                card4={item.card4} card4Text={item.card4Text}
+              />
+
             </Col>
           ))}
         </Row>

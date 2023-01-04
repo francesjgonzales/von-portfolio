@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Table from 'react-bootstrap/Table';
+import WorksDesc from '../../containers/works/WorksDesc';
 
 
 const Experience = () => (
@@ -99,6 +100,9 @@ const About = () => {
         </Tab>
         <Tab eventKey="skills" title="Skills">
           <Skills />
+        </Tab>
+        <Tab eventKey="WorksDesc" title="WorksDesc">
+          <WorksDesc />
         </Tab>
       </Tabs>
     </Container>

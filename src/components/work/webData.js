@@ -2,7 +2,7 @@ const webData = [
   {
     id: 1,
     cardTitle: 'Web Design',
-    cardImage: 'assets/Von-web.jpg',
+    cardImage: '/assets/Von-web.jpg',
     cardText: 'Wireframe and UI component design',
     cardLink: '/works/WorksDesc/#1',
     card1: '/assets/Von-website3.jpg',

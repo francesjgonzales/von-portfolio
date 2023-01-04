@@ -6,7 +6,7 @@ import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal'; */
 
 
-const WorkDesc = ({ cardTitle, cardText, card1, card1Text, card2, card2Text, card3, card3Text, card4, card4Text}) => {
+const WorkDesc = ({ cardTitle, cardText, card1, card1Text, card2, card2Text, card3, card3Text, card4, card4Text }) => {
 
   /* ------------------modal------------------ */
 /*   const [show, setShow] = useState(false);

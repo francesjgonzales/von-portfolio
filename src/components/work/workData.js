@@ -4,7 +4,11 @@ const workData = [
     cardTitle: 'Web Design',
     cardImage: 'assets/Von-web.jpg',
     cardText: 'Wireframe and UI component design',
+<<<<<<< HEAD
     cardLink: '/works/worksDesc',
+=======
+    cardLink: '/works/Websites',
+>>>>>>> 978f9c39aabde15359087ba3db1a55ca08d8d2fa
     card1: '/assets/Von-website3.jpg',
     card1Text: 'Sigla Mobile App proposal - UI design | UX Research | Wireframe',
     card2: '/assets/Von-website4.png',
