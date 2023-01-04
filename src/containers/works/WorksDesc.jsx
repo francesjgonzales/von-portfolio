@@ -1,11 +1,13 @@
 import React from 'react';
 import './works.css';
-import WorkDesc from '../../components/work/WorkDesc';
-import { Container, Row, Col } from 'react-bootstrap';
+// import WorkDesc from '../../components/work/WorkDesc';
+import { Container} from 'react-bootstrap';
 /* import workDataDesc from '../../components/work/workDataDesc'; */
-import workData from '../../components/work/workData';
+// import workData from '../../components/work/workData';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import Websites from './Websites';
+import Digital from './Digitals';
 
 
 const WorksDesc = () => {
@@ -13,7 +15,7 @@ const WorksDesc = () => {
     <>
     <Container className='mt-3'>
       <Tabs
-        defaultActiveKey="Experience"
+        defaultActiveKey="Website"
         id="controlled-tab-example"
         className="mb-3 justify-content-center"
       >
@@ -21,14 +23,14 @@ const WorksDesc = () => {
 
           <Websites />
         </Tab>
-        {/* <Tab eventKey="skills" title="Skills">
-          <Skills />
-        </Tab> */}
+        <Tab eventKey="Digital" title="Digital">
+          <Digital />
+        </Tab>
       </Tabs>
     </Container>
 
 
-      <Container className='mb-5'>
+      {/* <Container className='mb-5'>
         <Row xs={1} md={2} className="g-4">
           {workData.map((item) => (
             <Col key={item.id} id={item.id}>
@@ -43,7 +45,7 @@ const WorksDesc = () => {
             </Col>
           ))}
         </Row>
-      </Container>
+      </Container> */}
     </>
   )
 }

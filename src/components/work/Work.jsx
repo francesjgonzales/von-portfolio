@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col'; */
 
 const Work = ({ cardTitle, cardText, cardLink, cardImage }) => {
   return (
-    <Card style={{ width: '35rem' }}>
+    <Card style={{ width: '20rem' }}>
       <Card.Img variant="top" src={ cardImage } />
       {/* <Card.Img variant="top" src={ card1 } /> */}
       <Card.Body>
