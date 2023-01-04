@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container } from 'react-bootstrap';
+// import { Container } from 'react-bootstrap';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Table from 'react-bootstrap/Table';
@@ -88,14 +88,13 @@ const Skills = () => (
 const About = () => {
   /* const [key, setKey] = useState('home'); */
   return (
-    <Container className='mt-3'>
+    // <Container className='mt-3'>
       <Tabs
         defaultActiveKey="Experience"
         id="controlled-tab-example"
-        className="mb-3 justify-content-center"
+        className="mb-3 justify-content-center mt-3"
       >
         <Tab eventKey="Experience" title="Experience">
-
           <Experience />
         </Tab>
         <Tab eventKey="skills" title="Skills">
@@ -105,7 +104,7 @@ const About = () => {
           <WorksDesc />
         </Tab>
       </Tabs>
-    </Container>
+    // </Container>
   );
 }
 

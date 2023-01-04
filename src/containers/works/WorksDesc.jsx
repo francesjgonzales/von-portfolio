@@ -1,34 +1,34 @@
 import React from 'react';
 import './works.css';
 /* import WorkDesc from '../../components/work/WorkDesc'; */
-import { Container } from 'react-bootstrap';
+// import { Container } from 'react-bootstrap';
 /* import workDataDesc from '../../components/work/workDataDesc'; */
 /* import workData from '../../components/work/workData'; */
 import Tab from 'react-bootstrap/Tab';
-import Tabs from 'react-bootstrap/Tabs';
+// import Tabs from 'react-bootstrap/Tabs';
 import Websites from './Websites';
 import Digitals from './Digitals';
 
 const WorksDesc = () => {
   return (
     <>
-      <Container className='mt-3'>
-        <Tabs
-          defaultActiveKey="Website"
+      <Tab.Container className='mt-3'>
+        <Tab.Content
+          defaultactivekey="website"
           id="controlled-tab-example"
           className="mb-3 justify-content-center"
         >
-          <Tab eventKey="Website" title="Website">
+          <Tab.Pane eventKey="website" title="Website">
             <Websites />
-          </Tab>
-          <Tab eventKey="Digital" title="Digital">
+          </Tab.Pane>
+          <Tab.Pane eventKey="Digital" title="Digital">
             <Digitals />
-          <Tab eventKey="Print" title="Print">
+          <Tab.Pane eventKey="Print" title="Print">
             {/* <Experience /> */}
-          </Tab>
-          </Tab>
-        </Tabs>
-      </Container>
+          </Tab.Pane>
+          </Tab.Pane>
+        </Tab.Content>
+      </Tab.Container>
 
       {/* <Container className='mb-5'>
         <Row xs={1} md={2} className="g-4">
