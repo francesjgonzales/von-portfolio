@@ -5,7 +5,7 @@ const workData = {
       cardTitle: 'Web Design',
       cardImage: 'assets/Von-web.jpg',
       cardText: 'Wireframe and UI component design',
-      cardLink: '/works/WorksDesc/#1',
+      cardLink: '/works/worksDesc',
       card1: '/assets/Von-web.jpg',
       card1Text: 'UI Design for a bottled drink - Ideation | Design system',
       card2: '/assets/Von-website.png',

@@ -16,9 +16,4 @@ const digitalData = [
   }
 ]
 
-<<<<<<< HEAD
 export default digitalData;
-
-=======
-export default digitalData;
->>>>>>> 978f9c39aabde15359087ba3db1a55ca08d8d2fa

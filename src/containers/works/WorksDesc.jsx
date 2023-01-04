@@ -1,16 +1,5 @@
 import React from 'react';
 import './works.css';
-<<<<<<< HEAD
-// import WorkDesc from '../../components/work/WorkDesc';
-import { Container} from 'react-bootstrap';
-/* import workDataDesc from '../../components/work/workDataDesc'; */
-// import workData from '../../components/work/workData';
-import Tab from 'react-bootstrap/Tab';
-import Tabs from 'react-bootstrap/Tabs';
-import Websites from './Websites';
-import Digital from './Digitals';
-
-=======
 /* import WorkDesc from '../../components/work/WorkDesc'; */
 import { Container } from 'react-bootstrap';
 /* import workDataDesc from '../../components/work/workDataDesc'; */
@@ -18,50 +7,29 @@ import { Container } from 'react-bootstrap';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Websites from './Websites';
->>>>>>> 978f9c39aabde15359087ba3db1a55ca08d8d2fa
+import Digitals from './Digitals';
 
 const WorksDesc = () => {
   return (
     <>
-<<<<<<< HEAD
-    <Container className='mt-3'>
-      <Tabs
-        defaultActiveKey="Website"
-        id="controlled-tab-example"
-        className="mb-3 justify-content-center"
-      >
-        <Tab eventKey="Website" title="Website">
-=======
       <Container className='mt-3'>
         <Tabs
-          defaultActiveKey="WorksDesc"
+          defaultActiveKey="Website"
           id="controlled-tab-example"
           className="mb-3 justify-content-center"
         >
-          {/*  <Tab eventKey="Experience" title="Experience">
->>>>>>> 978f9c39aabde15359087ba3db1a55ca08d8d2fa
-
-          <Experience />
-        </Tab>
-<<<<<<< HEAD
-        <Tab eventKey="Digital" title="Digital">
-          <Digital />
-        </Tab>
-      </Tabs>
-    </Container>
-
-
-=======
-        <Tab eventKey="skills" title="Skills">
-          <Skills />
-        </Tab> */}
           <Tab eventKey="Website" title="Website">
             <Websites />
+          </Tab>
+          <Tab eventKey="Digital" title="Digital">
+            <Digitals />
+          <Tab eventKey="Print" title="Print">
+            {/* <Experience /> */}
+          </Tab>
           </Tab>
         </Tabs>
       </Container>
 
->>>>>>> 978f9c39aabde15359087ba3db1a55ca08d8d2fa
       {/* <Container className='mb-5'>
         <Row xs={1} md={2} className="g-4">
           {workData.map((item) => (
