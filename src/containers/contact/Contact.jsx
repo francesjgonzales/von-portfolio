@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap';
 
 const Contact = () => {
   return (
-      <Container className='mx-5 p-5'>
+      <Container className='p-5'>
       <p>Drop me an email at <a href="mailto:dunhillvongonzales@gmail.com">dunhillvongonzales@gmail.com</a></p>
 
       </Container>

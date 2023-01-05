@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap';
 
 const Skills = () => {
   return (
-    <Container className='mx-5 p-5'>
+    <Container className='p-5'>
       <Table striped bordered hover variant="light">
         <thead>
           <tr>

@@ -10,7 +10,7 @@ import Col from 'react-bootstrap/Col'; */
 const MotionGraphic = ({ cardTitle, cardText, title1, video1, video2, title2, video3, title3 }) => {
   return (
 
-    <Container className='mx-5 p-5'>
+    <Container className='p-5'>
       <Row>
         <Card.Title>
           {cardTitle}
@@ -20,19 +20,19 @@ const MotionGraphic = ({ cardTitle, cardText, title1, video1, video2, title2, vi
         </Card.Text>
 
         <Col>
-          <iframe src={video1} title={title1} controls muted></iframe>
+          <iframe src={video1} title={title1} height='150px' controls muted></iframe>
           <Card.Text>
             {title1}
           </Card.Text>
         </Col>
         <Col>
-          <iframe src={video2} title={title2} muted></iframe>
+          <iframe src={video2} title={title2} height='150px' muted></iframe>
           <Card.Text>
             {title2}
           </Card.Text>
         </Col>
         <Col>
-          <iframe src={video3} title={title3} muted></iframe>
+          <iframe src={video3} title={title3} height='300px' muted></iframe>
           <Card.Text>
             {title3}
           </Card.Text>
