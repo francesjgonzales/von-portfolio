@@ -13,7 +13,7 @@ const App = () => {
       <>
       <Navbar collapseOnSelect expand="lg" bg="light">
       <Container>
-        <Navbar.Brand as={Link} to="/about">VG</Navbar.Brand>
+        <Navbar.Brand as={Link} to="">VG</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className=" justify-content-end" id="responsive-navbar-nav">
           <Nav>
@@ -31,6 +31,7 @@ const App = () => {
       <Header />
       <Routes>
         {/* <Route path="/header" element={ <Header /> }/> */}
+        <Route index element={<Works />} />
         <Route path="/about" element={ <About /> }/>
         <Route path="/works" element={ <Works /> }/>
         <Route path="/works/Websites" element={ <Websites /> }/>

@@ -19,7 +19,8 @@ const workData = [
     cardTitle: 'Digital',
     cardImage: 'assets/Von-digital3.jpg',
     cardText: 'Design & adaptation of web banners & social media posts',
-    cardLink: '/works/WorksDesc/#2',
+    tabKey: 'Print',
+    cardLink: '/works/WorksDesc',
     card1: '/assets/Von-digital5.jpg',
     card1Text: 'Google Ads - Ideation | Adaptation',
     card2: '/assets/Von-digital6.jpg',
@@ -34,7 +35,7 @@ const workData = [
     cardTitle: 'Print & Publishing',
     cardImage: 'assets/Von-banners.jpg',
     cardText: 'Projects from marketing collaterals to large-scale print',
-    cardLink: '/works/WorksDesc/#3',
+    cardLink: '/works/WorksDesc',
     card1: '/assets/Von-posters1.jpg',
     card1Text: 'Event Posters - Ideation | Print Design',
     card2: '/assets/Von-print1.jpg',
@@ -94,7 +95,7 @@ const workData = [
     cardTitle: 'Motion Graphics',
     cardImage: 'assets/Von-motion.jpg',
     cardText: 'Animation for web banners and social media posts',
-    cardLink: '/worksDesc/5'
+    cardLink: '/works/WorksDesc',
   }
 ]
 

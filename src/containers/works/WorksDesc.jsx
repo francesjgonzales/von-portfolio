@@ -1,34 +1,35 @@
 import React from 'react';
 import './works.css';
 /* import WorkDesc from '../../components/work/WorkDesc'; */
-// import { Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 /* import workDataDesc from '../../components/work/workDataDesc'; */
 /* import workData from '../../components/work/workData'; */
 import Tab from 'react-bootstrap/Tab';
-// import Tabs from 'react-bootstrap/Tabs';
+import Tabs from 'react-bootstrap/Tabs';
 import Websites from './Websites';
 import Digitals from './Digitals';
+import Prints from './Prints';
 
 const WorksDesc = () => {
   return (
     <>
-      <Tab.Container className='mt-3'>
-        <Tab.Content
-          defaultactivekey="website"
+      <Container className='mt-3 mb-3'>
+        <Tabs
+          /* defaultactivekey="website" */
           id="controlled-tab-example"
           className="mb-3 justify-content-center"
         >
-          <Tab.Pane eventKey="website" title="Website">
+          <Tab eventKey="website" title="Website">
             <Websites />
-          </Tab.Pane>
-          <Tab.Pane eventKey="Digital" title="Digital">
+          </Tab>
+          <Tab eventKey="Digital" title="Digital">
             <Digitals />
-          <Tab.Pane eventKey="Print" title="Print">
-            {/* <Experience /> */}
-          </Tab.Pane>
-          </Tab.Pane>
-        </Tab.Content>
-      </Tab.Container>
+          </Tab>
+          <Tab eventKey="Print" title="Print">
+            <Prints />
+          </Tab>
+        </Tabs>
+      </Container>
 
       {/* <Container className='mb-5'>
         <Row xs={1} md={2} className="g-4">

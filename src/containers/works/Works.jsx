@@ -9,7 +9,7 @@ import workData from '../../components/work/workData';
 const Works = () => {
   return (
     <>
-      <Container className='mb-5'>
+      <Container className='mx-5 p-5'>
         <Row xs={1} md={2} className="g-4">
           {workData.map((item) => (
             <Col key={item.id} id={item.id}>

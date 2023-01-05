@@ -1,9 +1,8 @@
 import React from 'react'
-// import { Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Table from 'react-bootstrap/Table';
-import WorksDesc from '../../containers/works/WorksDesc';
 
 
 const Experience = () => (
@@ -88,7 +87,7 @@ const Skills = () => (
 const About = () => {
   /* const [key, setKey] = useState('home'); */
   return (
-    // <Container className='mt-3'>
+    <Container className='mx-5 p-5'>
       <Tabs
         defaultActiveKey="Experience"
         id="controlled-tab-example"
@@ -100,11 +99,8 @@ const About = () => {
         <Tab eventKey="skills" title="Skills">
           <Skills />
         </Tab>
-        <Tab eventKey="WorksDesc" title="WorksDesc">
-          <WorksDesc />
-        </Tab>
       </Tabs>
-    // </Container>
+    </Container>
   );
 }
 

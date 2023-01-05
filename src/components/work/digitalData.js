@@ -4,7 +4,7 @@ const digitalData = [
     cardTitle: 'Digital',
     cardImage: 'assets/Von-digital3.jpg',
     cardText: 'Design & adaptation of web banners & social media posts',
-    cardLink: '/works/WorksDesc/#2',
+    cardLink: '/works/WorksDesc',
     card1: '/assets/Von-digital5.jpg',
     card1Text: 'Google Ads - Ideation | Adaptation',
     card2: '/assets/Von-digital6.jpg',
