@@ -9,6 +9,7 @@ import Tabs from 'react-bootstrap/Tabs';
 import Websites from './Websites';
 import Digitals from './Digitals';
 import Prints from './Prints';
+import MotionGraphics from './MotionGraphics';
 
 const WorksDesc = () => {
   return (
@@ -27,6 +28,9 @@ const WorksDesc = () => {
           </Tab>
           <Tab eventKey="Print" title="Print">
             <Prints />
+          </Tab>
+          <Tab eventKey="Motion Graphics" title="Motion Graphics">
+            <MotionGraphics />
           </Tab>
         </Tabs>
       </Container>

@@ -1,9 +1,13 @@
-import React from 'react'
-import './contact.css'
+import React from 'react';
+import './contact.css';
+import { Container } from 'react-bootstrap';
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+      <Container className='mx-5 p-5'>
+      <p>Drop me an email at <a href="mailto:dunhillvongonzales@gmail.com">dunhillvongonzales@gmail.com</a></p>
+
+      </Container>
   )
 }
 

@@ -16,8 +16,8 @@ const Experience = () => (
   </thead>
   <tbody>
     <tr>
-      <td>Visual Designer</td>
-      <td>Adaptsmedia  |  Singapore</td>
+      <td>Senior Creative Designer</td>
+      <td>Adaptsmedia  |  Dubai - remote work</td>
       <td>2022 - Present</td>
     </tr>
     <tr>

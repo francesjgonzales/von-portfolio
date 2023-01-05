@@ -1,6 +1,6 @@
 import React from 'react';
 import './works.css';
-import Website from '../../components/work/Website';
+import Print from '../../components/work/Print';
 import { Container, Row, Col } from 'react-bootstrap';
 /* import workDataDesc from '../../components/work/workDataDesc'; */
 import printData from '../../components/work/printData';
@@ -13,7 +13,7 @@ const Prints = () => {
         <Row xs={1} md={2} className="g-4">
           {printData.map((item) => (
             <Col key={item.id} id={item.id}>
-              <Website 
+              <Print 
               cardTitle={item.cardTitle} cardText={item.cardText}
               card1={item.card1} card1Text={item.card1Text} 
               card2={item.card2} card2Text={item.card2Text} 
