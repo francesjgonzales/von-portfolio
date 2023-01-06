@@ -11,7 +11,7 @@ const webData = [
     card2Text: 'CA Technologies Registration Website - UI Design | Wireframe',
     card3: '/assets/Von-webRegistration.png',
     card3Text: 'Event Registration Website - UI Design | Wireframe',
-    card4: '/assets/Von-website5.jpg',
+    card4: '/assets/Von-website5.png',
     card4Text: 'GrowthEdge Website - Wireframe | UI Design'
   }
 ]

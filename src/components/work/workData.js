@@ -3,7 +3,7 @@ const workData = [
     id: 1,
     cardTitle: 'Web Design',
     cardImage: 'assets/Von-web.jpg',
-    cardText: 'Wireframe and UI component design',
+    cardText: 'Wireframe and UI component design of website and mobile app',
     cardLink: '/works/worksDesc',
     card1: '/assets/Von-website3.jpg',
     card1Text: 'Sigla Mobile App proposal - UI design | UX Research | Wireframe',
@@ -94,7 +94,7 @@ const workData = [
     id: 6,
     cardTitle: 'Motion Graphics',
     cardImage: 'assets/Von-motion.jpg',
-    cardText: 'Animation for web banners and social media posts',
+    cardText: 'Animated web banners ads & social media posts done in After Effets & Premier',
     cardLink: '/works/WorksDesc',
   }
 ]

@@ -10,7 +10,7 @@ import Col from 'react-bootstrap/Col'; */
 const Digital = ({ cardTitle, cardText, card1, card1Text, card2, card2Text, card3, card3Text, card4, card4Text }) => {
   return (
 
-<Container className='mx-5 p-5'>
+<Container className='p-5'>
 <Row>
   <Card.Title>
     {cardTitle}
