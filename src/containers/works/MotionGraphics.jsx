@@ -17,6 +17,9 @@ const MotionGraphics = () => {
               video1={item.video1} title1={item.title1}
               video2={item.video2} title2={item.title2}
               video3={item.video3} title3={item.title3}
+              video4={item.video4} title4={item.title4}
+              video5={item.video5} title5={item.title5}
+              video6={item.video6} title6={item.title6}
             />
               
             </Col>

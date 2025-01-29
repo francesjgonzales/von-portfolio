@@ -12,7 +12,11 @@ const digitalData = [
     card3: '/assets/Von-digital7.jpg',
     card3Text: 'Social Media posts - Ideation | Adaptation',
     card4: '/assets/Von-digital8.jpg',
-    card4Text: 'Social Media posts - Ideation | Adaptation'
+    card4Text: 'Social Media posts - Ideation | Adaptation',
+    video7: '/assets/Von-motion5.mp4',
+    title7: 'Animated web advertisement',
+    video8: '/assets/Von-motion11.mp4',
+    title8: 'Animated web advertisement',
   }
 ]
 
