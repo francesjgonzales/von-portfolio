@@ -21,25 +21,23 @@ const App = () => {
                 <Nav>
                   <Nav.Link as={Link} to="/" element={<Homepage />}>Home</Nav.Link>
                   <Nav.Link as={Link} to="/about" element={<About />}>About</Nav.Link>
-                  <Nav.Link as={Link} to="/works" element={<Works />}>Works</Nav.Link>
                   <Nav.Link as={Link} to="/websites" element={<Websites />}>Website</Nav.Link>
-                  <Nav.Link as={Link} to="/skills">Skills</Nav.Link>
+                  <Nav.Link as={Link} to="/motion" element={<MotionGraphics />}>Motion Graphics</Nav.Link>
+                  <Nav.Link as={Link} to="/digital">Digital Creatives</Nav.Link>
                   <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Container>
           </Navbar>
+
           <Routes>
             <Route index element={<Homepage />} />
+            <Route path="/about" element={<About />} />
             <Route path="/websites" element={<Websites />} />
             <Route path="/digital" element={<Digitals />} />
             <Route path="/motion" element={<MotionGraphics />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/works" element={<Works />} />
-            <Route path="/skills" element={<Skills />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
-
           <Footer />
         </ThemeProvider>
 

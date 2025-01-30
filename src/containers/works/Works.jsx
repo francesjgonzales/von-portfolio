@@ -13,7 +13,10 @@ const Works = () => {
             <Col className="align-middle mt-5 pt-5">
               <Col className="text-start" style={{ width: "100%" }}>
                 <h4>Web Design and Development </h4>
-                <p>Compiled projects done in WordPress.</p>
+                <p>
+                  Websites done in HTML, Tailwind and Bootstrap CSS, WordPress
+                  and Joomla
+                </p>
                 <Button href="/websites" variant="info">
                   View
                 </Button>
