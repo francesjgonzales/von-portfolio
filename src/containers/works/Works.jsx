@@ -17,7 +17,7 @@ const Works = () => {
                   Websites done in HTML, Tailwind and Bootstrap CSS, WordPress
                   and Joomla
                 </p>
-                <Button as={Link} href="/websites" variant="info">
+                <Button as={Link} to="/websites" variant="info">
                   View
                 </Button>
               </Col>
@@ -37,7 +37,7 @@ const Works = () => {
               <Col className="text-start" style={{ width: "100%" }}>
                 <h4>Digital Design</h4>
                 <p>Design & adaptation of web banners & social media posts</p>
-                <Button as={Link} href="/digital" variant="info">
+                <Button as={Link} to="/digital" variant="info">
                   View
                 </Button>
               </Col>
@@ -59,7 +59,7 @@ const Works = () => {
                 <p>
                   Create animated web banners and social media posts and reels.
                 </p>
-                <Button as={Link} href="/motion" variant="info">
+                <Button as={Link} to="/motion" variant="info">
                   View
                 </Button>
               </Col>
