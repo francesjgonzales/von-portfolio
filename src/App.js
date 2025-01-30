@@ -22,6 +22,7 @@ const App = () => {
                   <Nav.Link as={Link} to="/" element={<Homepage />}>Home</Nav.Link>
                   <Nav.Link as={Link} to="/about" element={<About />}>About</Nav.Link>
                   <Nav.Link as={Link} to="/works" element={<Works />}>Works</Nav.Link>
+                  <Nav.Link as={Link} to="/websites" element={<Websites />}>Website</Nav.Link>
                   <Nav.Link as={Link} to="/skills">Skills</Nav.Link>
                   <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                 </Nav>
