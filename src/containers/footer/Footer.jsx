@@ -1,15 +1,15 @@
-import React from 'react';
-import './footer.css';
-import { Container } from 'react-bootstrap';
+import React from "react";
+import "./footer.css";
+import { Container } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <div className="footer mt-auto bg-light">
+    <div className="footer ottom-0 text-center">
       <Container>
-        <span className="text-muted">Von Gonzales Portfolio 2022-2023</span>
+        <span className="text-muted">Von Gonzales Portfolio 2025</span>
       </Container>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

@@ -1,22 +1,17 @@
 const digitalData = [
   {
-    id: 2,
-    cardTitle: 'Digital',
-    cardImage: 'assets/Von-digital3.jpg',
-    cardText: 'Design & adaptation of web banners & social media posts',
-    cardLink: '/works/WorksDesc',
     card1: '/assets/Von-digital5.jpg',
-    card1Text: 'Google Ads - Ideation | Adaptation',
+    card1Text: 'Advertisement for Midea',
     card2: '/assets/Von-digital6.jpg',
-    card2Text: 'Google Ads - Ideation | Adaptation',
+    card2Text: 'Advertisement for Adapts Media',
     card3: '/assets/Von-digital7.jpg',
-    card3Text: 'Social Media posts - Ideation | Adaptation',
+    card3Text: 'Static posts for Advertisers.Store',
     card4: '/assets/Von-digital8.jpg',
-    card4Text: 'Social Media posts - Ideation | Adaptation',
+    card4Text: 'Advertisement for Adapts Media',
     video7: '/assets/Von-motion5.mp4',
-    title7: 'Animated web advertisement',
+    title7: 'Web advertisement for Pepsi',
     video8: '/assets/Von-motion11.mp4',
-    title8: 'Animated web advertisement',
+    title8: 'Web advertisement for Cartier',
   }
 ]
 

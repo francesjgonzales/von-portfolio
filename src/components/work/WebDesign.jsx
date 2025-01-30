@@ -3,7 +3,7 @@ import "./work.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 
-const WorkDesc = ({
+const WebDesign = ({
   cardTitle,
   cardText,
   card1,
@@ -57,4 +57,4 @@ const WorkDesc = ({
   );
 };
 
-export default WorkDesc;
+export default WebDesign;

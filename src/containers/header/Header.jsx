@@ -1,21 +1,22 @@
-import React from 'react';
-import './header.css';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import React from "react";
+import { Container, Row, Col, Image } from "react-bootstrap";
 
 const Header = () => {
   return (
-    <Container>
-      <Row>
-        <Col className='mt-5'>
-          <h1>Von Gonzales</h1>
-          <h5>Creative Designer with skills in UI Design, Branding, Digital and Web design,
-            Motion Branding & Print</h5>
+    <Container className="mt-5">
+      <Row className="justify-content-md-center ">
+        <Col md={4}>
+          <Image src="../assets/von-pic.png" roundedCircle />
+        </Col>
+        <Col>
+          <h1 className="text-center mt-4 mb-4 ">
+            A Web Designer and Developer focused on crafting engaging user
+            experiences through creative design and digital media.
+          </h1>
         </Col>
       </Row>
     </Container>
   );
-}
+};
 
 export default Header;

@@ -1,6 +1,5 @@
 import React from 'react';
-import { Works, WorksDesc, Skills, Contact, Footer, Header } from './containers';
-import { About } from './components';
+import { Works, Skills, Contact, Footer, About, Homepage, Websites, Digitals, MotionGraphics } from './containers';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes, Link } from "react-router-dom";
@@ -14,35 +13,31 @@ const App = () => {
         <ThemeProvider
           breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs']}
           minBreakpoint="xs">
-          <Navbar collapseOnSelect expand="lg" bg="light">
-            <Container>
-              <Navbar.Brand as={Link} to="">VG</Navbar.Brand>
+          <Navbar collapseOnSelect expand="lg">
+            <Container >
+              <Navbar.Brand as={Link} to="/">VG</Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse className=" justify-content-end" id="responsive-navbar-nav">
                 <Nav>
-                  <Nav.Link as={Link} to="/about">About</Nav.Link>
-                  <Nav.Link as={Link} to="/works">Works</Nav.Link>
+                  <Nav.Link as={Link} to="/" element={<Homepage />}>Home</Nav.Link>
+                  <Nav.Link as={Link} to="/about" element={<About />}>About</Nav.Link>
+                  <Nav.Link as={Link} to="/works" element={<Works />}>Works</Nav.Link>
                   <Nav.Link as={Link} to="/skills">Skills</Nav.Link>
                   <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
-                  {/* <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-            </Nav.Link> */}
                 </Nav>
               </Navbar.Collapse>
             </Container>
           </Navbar>
-          <Header />
           <Routes>
-            {/* <Route path="/header" element={ <Header /> }/> */}
-            <Route index element={<Works />} />
+            <Route index element={<Homepage />} />
+            <Route path="/websites" element={<Websites />} />
+            <Route path="/digital" element={<Digitals />} />
+            <Route path="/motion" element={<MotionGraphics />} />
             <Route path="/about" element={<About />} />
             <Route path="/works" element={<Works />} />
-            {/* <Route path="/works/Websites" element={<Websites />} /> */}
-            <Route path="/works/worksDesc" element={<WorksDesc />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
-          {/* <Skills /> */}
 
           <Footer />
         </ThemeProvider>

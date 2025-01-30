@@ -10,12 +10,11 @@
 }
 
 body {
-  color: var(--color-text)!important;
+  color: var(--color-text) !important;
   background: var(--color-bg);
-
 }
 
 a {
   color: var(--color-text);
-  text-decoration: none!important;
+  text-decoration: none !important;
 }

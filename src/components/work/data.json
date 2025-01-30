@@ -1,25 +1,21 @@
 [
-    {
-        "id": 1,
-        "cardTitle": "Commercial Print",
-        "cardImage": "assets/Von-banners.jpg",
-        "cardText": "Works from marketing collaterals to large-scale print",
-        "cardLink": "/worksDesc/1",
-        "isVisible": true,
-        "image1": "assets/Von-banners.jpg",
-        "image2": "assets/Von-branding.jpg",
-        /* "cardArray": [
-                {"image1": "assets/Von-banners.jpg"},
-                {"image2": "assets/Von-branding.jpg"}
-            ] */
-    },
-    {
-        "id": 2,
-        "cardTitle": "Branding",
-        "cardImage": "assets/Von-banners.jpg",
-        "cardText": "Works from marketing collaterals to large-scale print",
-        "cardLink": "/worksDesc/1",
-        "isVisible": false,
-        "cardArray": ["assets/Von-banners.jpg", "assets/Von-branding.jpg"]
-    }
+  {
+    "id": 1,
+    "cardTitle": "Commercial Print",
+    "cardImage": "assets/Von-banners.jpg",
+    "cardText": "Works from marketing collaterals to large-scale print",
+    "cardLink": "/worksDesc/1",
+    "isVisible": true,
+    "image1": "assets/Von-banners.jpg",
+    "image2": "assets/Von-branding.jpg"
+  },
+  {
+    "id": 2,
+    "cardTitle": "Branding",
+    "cardImage": "assets/Von-banners.jpg",
+    "cardText": "Works from marketing collaterals to large-scale print",
+    "cardLink": "/worksDesc/1",
+    "isVisible": false,
+    "cardArray": ["assets/Von-banners.jpg", "assets/Von-branding.jpg"]
+  }
 ]

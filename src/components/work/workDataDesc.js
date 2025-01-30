@@ -80,18 +80,34 @@ const workData = {
     },
 
   ],
-motionGraphics: [
-  {
-    id: 6,
-    cardTitle: 'Motion Graphics',
-    cardImage: 'assets/Von-motion.jpg',
-    cardText: 'Animation for web banners and social media posts',
-    cardLink: '/worksDesc/5'
-  }
-
-],
+  motionGraphics: [
+    {
+      id: 6,
+      cardTitle: 'Motion Graphics',
+      cardImage: 'assets/Von-motion.jpg',
+      cardText: 'Animation for web banners and social media posts',
+      cardLink: '/worksDesc/5'
+    }
+  ],
+  webDesignDevelopment: [
+    {
+      id: 7,
+      cardTitle: 'NAIT Web Design and Development',
+      cardImage: 'assets/nait-web1.jpeg',
+      cardText: 'Wireframe and UI component design',
+      cardLink: '/works/worksDesc',
+      card1: '/assets/Von-web.jpg',
+      card1Text: 'UI Design for a bottled drink - Ideation | Design system',
+      card2: '/assets/Von-website.png',
+      card2Text: 'SAF Collaterals - Newsletter | Posters | Envelope | Stickers',
+      card3: '/assets/Von-posters2.jpg',
+      card3Text: 'Event Posters - Ideation | Print Design',
+      card4: '/assets/Von-banners.jpg',
+      card4Text: 'Pull up banners for events - Ideation | Print Design'
+    }
+  ],
 }
-  
-  export default workData;
+
+export default workData;
 
 

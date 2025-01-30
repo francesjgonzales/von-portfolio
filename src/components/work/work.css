@@ -1,3 +1,10 @@
 .primary {
-    color: #3F51B5;
+  color: #3f51b5;
+}
+
+.card {
+  --bs-card-bg: none;
+}
+.carousel-control-next {
+  color: black;
 }
