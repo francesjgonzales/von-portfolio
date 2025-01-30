@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -26,7 +27,7 @@ const Homepage = () => {
             <Col className="text-start" style={{ width: "100%" }}>
               <h4>Web Design and Development </h4>
               <p>Compiled projects done in WordPress.</p>
-              <Button href="/websites" variant="info">
+              <Button as={Link} href="/websites" variant="info">
                 View
               </Button>
             </Col>
@@ -43,7 +44,7 @@ const Homepage = () => {
             <Col className="text-start" style={{ width: "100%" }}>
               <h4>Digital Design</h4>
               <p>Design & adaptation of web banners & social media posts</p>
-              <Button href="/digital" variant="info">
+              <Button as={Link} href="/digital" variant="info">
                 View
               </Button>
             </Col>
@@ -65,7 +66,7 @@ const Homepage = () => {
               <p>
                 Create animated web banners and social media posts and reels.
               </p>
-              <Button href="/motion" variant="info">
+              <Button as={Link} href="/motion" variant="info">
                 View
               </Button>
             </Col>
