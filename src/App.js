@@ -1,5 +1,5 @@
 import React from 'react';
-import { Works, Skills, Contact, Footer, About, Homepage, Websites, Digitals, MotionGraphics } from './containers';
+import { Contact, Footer, About, Homepage, Websites, Digitals, MotionGraphics } from './containers';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes, Link } from "react-router-dom";
