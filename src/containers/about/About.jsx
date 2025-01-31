@@ -240,23 +240,12 @@ const About = () => {
         <Card.Body>
           <Card.Title>Web Designer Intern</Card.Title>
           <p>Aug 2024 - Oct 2024</p>
+          <p className="fst-italic">Iter Innovadi | Montreal, QC, CA</p>
           <Card.Text>
             Interned as a Web Designer, collaborating with the creative team in
             weekly meetings and creating social media graphics and user
             interfaces in Figma for multiple projects.
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
-
-        <Card.Body>
-          <Card.Title>Web Designer Intern</Card.Title>
-          <p>Aug 2024 - Oct 2024</p>
-          <Card.Text>
-            Interned as a Web Designer, collaborating with the creative team in
-            weekly meetings and creating social media graphics and user
-            interfaces in Figma for multiple projects.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
         </Card.Body>
       </Card>
     </Container>

@@ -13,8 +13,6 @@ import {
 } from "react-bootstrap";
 
 const Digital = ({
-  cardTitle,
-  cardText,
   card1,
   card1Text,
   card2,
@@ -29,10 +27,31 @@ const Digital = ({
   title8,
 }) => {
   /* ListTabGroup */
-  const scrollToSection = () => {
-    const container = document.getElementById("edm");
-    if (Container) {
-      container.scrollIntoView({ behavior: "smooth" });
+  const scrollToEdm = () => {
+    const edmSection = document.getElementById("edm");
+    if (edmSection) {
+      edmSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const scrollToAnimate = () => {
+    const animateSection = document.getElementById("animate");
+    if (animateSection) {
+      animateSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const scrollToSocialMedia = () => {
+    const socialMediaSection = document.getElementById("socialMedia");
+    if (socialMediaSection) {
+      socialMediaSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const scrollToGoogleAds = () => {
+    const googleSection = document.getElementById("googleAds");
+    if (googleSection) {
+      googleSection.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -45,26 +64,31 @@ const Digital = ({
   return (
     <Container className="mt-3">
       <Row>
-        <h5>{cardTitle}</h5>
-        <h6>{cardText}</h6>
-        <Col>
-          <ListGroup horizontal>
-            <ListGroup.Item>This</ListGroup.Item>
-            <ListGroup.Item>ListGroup</ListGroup.Item>
-            <ListGroup.Item>renders</ListGroup.Item>
-            <ListGroup.Item>
-              <Button variant="link" onClick={scrollToSection}>
-                {" "}
-                Electronic Email
-              </Button>
-            </ListGroup.Item>
-          </ListGroup>
-        </Col>
+        <ListGroup horizontal className="justify-content-md-center">
+          <ListGroup.Item>
+            <Button variant="link" onClick={scrollToGoogleAds}>
+              Google Ads
+            </Button>
+          </ListGroup.Item>
+          <ListGroup.Item>
+            <Button variant="link" onClick={scrollToSocialMedia}>
+              Social Media Posts
+            </Button>
+          </ListGroup.Item>
+          <ListGroup.Item>
+            <Button variant="link" onClick={scrollToAnimate}>
+              Animate Web Banners
+            </Button>
+          </ListGroup.Item>
+          <ListGroup.Item>
+            <Button variant="link" onClick={scrollToEdm}>
+              Electronic Email
+            </Button>
+          </ListGroup.Item>
+        </ListGroup>
       </Row>
 
-      <Container></Container>
-
-      <Container className="mt-5">
+      <Container className="mt-5" id="googleAds">
         <h5>Google Ads</h5>
         <p>
           Develop concept-based Google Ads and adapt them across various sizes
@@ -88,7 +112,7 @@ const Digital = ({
         </Row>
       </Container>
 
-      <Container className="mt-5">
+      <Container className="mt-5" id="socialMedia">
         <h5>Social Media Posts</h5>
         <p>Designed the posts using Photoshop and Illustrator</p>
         <Row xs={1} lg={2}>
@@ -110,7 +134,7 @@ const Digital = ({
         </Row>
       </Container>
 
-      <Container className="mt-5">
+      <Container className="mt-5" id="animate">
         <h5>Animated Web Banners</h5>
         <p>Created animated web banners using After Effects</p>
       </Container>

@@ -15,11 +15,14 @@ const Website = ({
   card3Text,
   card4,
   card4Text,
+  card5,
+  card5Text,
 }) => {
   const [showModal1, setShowModal1] = useState(false);
   const [showModal2, setShowModal2] = useState(false);
   const [showModal3, setShowModal3] = useState(false);
   const [showModal4, setShowModal4] = useState(false);
+  const [showModal5, setShowModal5] = useState(false);
 
   const handleShowModal1 = () => setShowModal1(true);
   const handleCloseModal1 = () => setShowModal1(false);
@@ -33,6 +36,9 @@ const Website = ({
   const handleShowModal4 = () => setShowModal4(true);
   const handleCloseModal4 = () => setShowModal4(false);
 
+  const handleShowModal5 = () => setShowModal5(true);
+  const handleCloseModal5 = () => setShowModal5(false);
+
   return (
     <Container className="mt-5">
       <Row xs={1} lg={3}>
@@ -42,7 +48,6 @@ const Website = ({
             <Card.Body>
               <Card.Img variant="top" src={card1} alt={card1Text} />
               <Card.Title className="pt-3">{card1Text}</Card.Title>
-              <Card.Text>{card1Text}</Card.Text>
               <Card.Link
                 variant="link"
                 href="https://celebrated-truffle-88872c.netlify.app/"
@@ -106,7 +111,6 @@ const Website = ({
             <Card.Body>
               <Card.Img variant="top" src={card2} alt={card2Text} />
               <Card.Title className="pt-3">{card2Text}</Card.Title>
-              <Card.Text>{card3Text} </Card.Text>
               <Card.Link href="https://teal-shrew-536366.hostingersite.com/#">
                 Live Preview
               </Card.Link>
@@ -162,7 +166,6 @@ const Website = ({
             <Card.Body>
               <Card.Img variant="top" src={card3} alt={card3Text} />
               <Card.Title className="pt-3">{card3Text}</Card.Title>
-              <Card.Text>{card3Text}</Card.Text>
               <Card.Link href="#" onClick={handleShowModal3}>
                 View more
               </Card.Link>
@@ -209,7 +212,6 @@ const Website = ({
             <Card.Body>
               <Card.Img variant="top" src={card4} alt={card4Text} />
               <Card.Title className="pt-3">{card4Text}</Card.Title>
-              <Card.Text>{card4Text}</Card.Text>
               <Card.Link href="#" onClick={handleShowModal4}>
                 View more
               </Card.Link>
@@ -250,6 +252,47 @@ const Website = ({
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleCloseModal4}>
+              Close
+            </Button>
+          </Modal.Footer>
+        </Modal>
+
+        {/* ------------------Figma------------------ */}
+        <Col className="mt-3 text-start" id="focusPrototype">
+          <Card style={{ height: "100%" }}>
+            <Card.Body>
+              <Card.Img variant="top" src={card5} alt={card5Text} />
+              <Card.Title className="pt-3">{card5Text}</Card.Title>
+              <Card.Link href="https://www.figma.com/proto/RcA68aprtUH6hHDl8i0XR0/Focus-Photography-Club?page-id=0%3A1&node-id=6-1217&p=f&viewport=-88%2C40%2C0.09&t=AImNLrxwQlDW08p4-1&scaling=scale-down&content-scaling=fixed">
+                Prototype
+              </Card.Link>
+              <Card.Link href="#" onClick={handleShowModal5}>
+                View more
+              </Card.Link>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Modal size="lg" show={showModal5} onHide={handleCloseModal5}>
+          <Modal.Header closeButton>
+            <Modal.Title>Project Overview</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <h6>Key Features</h6>
+            <p>
+              Conducted user research to gain a high-level understanding of the
+              registration journey for the Photography Club. Developed a working
+              prototype to test the proposed user flow.
+            </p>
+            <ul>
+              <li>Analysis and Design Thinking</li>
+              <li>Validation Process</li>
+              <li>Prototype Usability</li>
+            </ul>
+            <Image src="/assets/FocusPhotoWeb-Full.png" fluid />
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="secondary" onClick={handleCloseModal5}>
               Close
             </Button>
           </Modal.Footer>
